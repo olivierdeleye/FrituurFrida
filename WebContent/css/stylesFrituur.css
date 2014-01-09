@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+body { 
+	font-family: Verdana;
+}
+
+h1 {
+	
+	color: maroon;
+	text-shadow: gray;
+}
+h2 { 
+	color: olive;
+}
+	
+dd,dt {
+	 margin-left: 0;
+}
+
+dt {
+	font-weight: bold;
+	margin-top : 0.5em;
+}
+
+ul.zebra li:nth-child(even) {
+	background-color: #efefef;
+	list-style: none;
+	padding-bottom: 0.1em;
+}
+ul.zebra li:nth-child(odd) {
+	background-color: #c6d1dd;
+	list-style: none;
+	padding-bottom: 0.1em;
+}
+
+table tr.even{
+	
+	background-color: #efefef;
+	color: blue;
+	font-size: 0.85em;
+	
+}
+
+table tr.oneven {
+	
+	background-color: #c6d1dd;
+	color: green;
+	font-size: 0.85em;
+}
+
+.pikant{
+	
+	font-family: cursive;
+	color: red;
+	font-size: 1.3em;
+}
+
+ul.menu {
+	
+	list-style : none;
+	padding : 0;
+}
+
+ul.menu li {
+	
+	
+	padding: 0.5em;
+}
+
+ul.menuLink li {
+	
+	
+	font-size:1.5em;
+    
+    display : inline; 
+}
+
+ul.menuLink li>a {
+	
+	
+	font-size:0.7em;
+	font-family: cursive;
+    list-style: square;
+    display : inline; 
+    margin: 0.75em;
+}
+
+
+
+ul.ingredienten li {
+	
+	list-style : disc;
+}
+
+a {
+	color: olive;
+	text-decoration: none;
+}
+
+a:visited {
+	
+	 text-decoration : none;
+	
+}
+
+a:hover {
+	
+	color: #c6d1dd;
+}
+
+a:active {
+	
+	color : red;
+}
+
+.border{
+	border-color:gray;
+	border-style: solid;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	
+}
+
+form {
+
+	border-color: black;
+	border-width: 1em;
+}
+
+span.fout {
+	
+	color:red; 
+	
+}
+
+body.meisjes {
+	
+	background-color: #F2CFF0;
+	color: red;
+}
+
+body.meisjes h1 {
+	
+	background-color: #F2CFF0;
+	color: red;
+}
+
+body.jongens {
+	 
+	 background-color:#BADEFC;
+	 color: blue;
+}
+body.jongens h1 {
+	 
+	 background-color:#BADEFC;
+	 color: blue;
+}
+
+section {
+	
+	padding-top: 0.6em;
+    padding-bottom: 0.6em;
+	
+}
+
+div.fun {
+	
+	color: purple;
+	font-family: cursive;
+	font-size: 26px;
+	
+	
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>    <!-- TagLibrary Descriptor -->
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javee
+    http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>vdab</short-name> <!-- wordt prefix van taglib -->
+  <uri>http://vdab.be/tags</uri>
+  <tag-file>
+   <name>logo</name>
+   <path>/WEB-INF/tags/vdab/frituurFridaLogo.tag</path>
+  </tag-file>
+  </taglib>
